@@ -1,8 +1,20 @@
+import Card from "./components/Card"
 
 const App = () => {
+  const name = "Kushagra"
   return (
-    <div>Learning React Components</div>
+    <>
+      <div className="cards-container">
+        <h1>Learning React Components</h1>
+        <div id="card">
+          <h1>my name is {name} and now  I&apos;m learning React</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, itaque.</p>
+        </div>
+        <Card />
+      </div>
+    </>
   )
+
 }
 
 export default App
