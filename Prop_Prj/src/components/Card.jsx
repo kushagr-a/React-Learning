@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Bookmark } from "lucide-react"
 
-// eslint-disable-next-line react/prop-types
 export const Card = ({job}) => {
     return (
         <div className="card">
